@@ -89,13 +89,15 @@ const bonus = {
   };
 
   // 5a
-  const {first, second, third}= bonus
-  const all = [...first, ...second, ...third];
-  console.log(all);
+  const {first, second, third}= bonus //turning key:value pairs into variables
+  const all = [...first, ...second, ...third]; //combining using spread  
+  console.log(all); // verifying/testing that it worked the way I intended
 
 
 // 5b
-  const [one, two, three, four, five, six, seven, eight, nine] = all;
+  const [one, two, three, four, five, six, seven, eight, nine] = all; // deconstruction and pairing values
+  
+  // Now to verify it worked
   console.log(one);
   console.log(two);
   console.log(three);
